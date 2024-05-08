@@ -6,7 +6,7 @@ authors = ["other_wolf <vpe304@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 noble-tls = "^0.0.104"
 cloudscraper = "^1.2.71"
 pysocks = "^1.7.1"
