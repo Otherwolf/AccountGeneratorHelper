@@ -6,7 +6,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / 'README.md').read_text()
 
 setup(
-    name='account_generator_helper',
+    name='agh',
     version='1.0.14',
     packages=find_packages(),
     classifiers=[
@@ -28,7 +28,7 @@ setup(
         'Topic :: Internet :: Proxy Servers',
     ],
     project_urls={
-        'Source': 'https://github.com/Dionis1902/AccountGeneratorHelper/tree/main/account_generator_helper',
+        'Source': 'https://github.com/Dionis1902/AccountGeneratorHelper/tree/main/agh',
         'Examples': 'https://github.com/Dionis1902/AccountGeneratorHelper/tree/main/examples',
         'Tracker': 'https://github.com/Dionis1902/AccountGeneratorHelper/issues',
     },

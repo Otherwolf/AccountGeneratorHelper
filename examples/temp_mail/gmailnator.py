@@ -1,4 +1,4 @@
-from account_generator_helper import GmailNator
+from agh import GmailNator
 
 
 mail = GmailNator()

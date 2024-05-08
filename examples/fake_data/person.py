@@ -1,4 +1,4 @@
-from account_generator_helper import generate_person, generate_persons
+from agh import generate_person, generate_persons
 
 
 print(generate_person())  # Person(gender='female', nam...)

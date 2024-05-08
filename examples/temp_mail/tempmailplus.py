@@ -1,4 +1,4 @@
-from account_generator_helper import TempMailPlus, TempMailPlusDomains
+from agh import TempMailPlus, TempMailPlusDomains
 
 
 mail = TempMailPlus()

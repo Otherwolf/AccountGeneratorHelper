@@ -1,7 +1,7 @@
 import random
 import requests
 from .country import Country
-from account_generator_helper.countries import Counties
+from agh.countries import Counties
 from typing import List
 
 from ..exceptions import NoCountyFound

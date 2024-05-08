@@ -1,4 +1,4 @@
-from account_generator_helper import TempMailLol
+from agh import TempMailLol
 
 
 mail = TempMailLol()

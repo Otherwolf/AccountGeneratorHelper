@@ -1,6 +1,6 @@
 import random
 from .phone import Phone
-from account_generator_helper.countries import Counties
+from agh.countries import Counties
 from typing import List
 
 from ..exceptions import NoNumbers

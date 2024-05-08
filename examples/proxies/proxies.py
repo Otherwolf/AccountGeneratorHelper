@@ -1,4 +1,4 @@
-from account_generator_helper import Proxies
+from agh import Proxies
 
 
 proxies = Proxies()

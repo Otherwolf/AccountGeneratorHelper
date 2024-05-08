@@ -1,4 +1,4 @@
-from account_generator_helper import get_password
+from agh import get_password
 
 
 print(get_password())  # i)7\\yc4EsvTQJG'

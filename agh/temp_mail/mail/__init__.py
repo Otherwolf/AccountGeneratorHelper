@@ -3,7 +3,7 @@ import time
 
 import requests
 
-from account_generator_helper.utilities import random_string
+from agh.utilities import random_string
 from .letter import Letter
 from typing import List
 

@@ -1,6 +1,6 @@
 import requests
 
-from account_generator_helper.captcha_solver.exceptions import CantRecognize, DailyLimit
+from agh.captcha_solver.exceptions import CantRecognize, DailyLimit
 
 
 class CaptchaSolver:

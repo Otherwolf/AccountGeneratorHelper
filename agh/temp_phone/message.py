@@ -1,4 +1,4 @@
-from account_generator_helper.utilities import str_to_timedelta
+from agh.utilities import str_to_timedelta
 from datetime import datetime
 
 

@@ -1,4 +1,4 @@
-from account_generator_helper import InboxKitten
+from agh import InboxKitten
 
 
 mail = InboxKitten()

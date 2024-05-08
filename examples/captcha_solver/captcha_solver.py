@@ -1,4 +1,4 @@
-from account_generator_helper import CaptchaSolver
+from agh import CaptchaSolver
 
 # Get api key from https://optiic.dev/
 captcha_solver = CaptchaSolver('11r6wjas2zTHLTgdWvEjaap1xq7m7111ufUNFas1fwCS')

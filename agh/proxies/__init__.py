@@ -2,7 +2,7 @@ import json
 import re
 import requests
 from .constants import ProxyType
-from account_generator_helper.proxies.proxy import Proxy
+from agh.proxies.proxy import Proxy
 from ..countries import Counties
 from threading import Thread, Lock
 from bs4 import BeautifulSoup
@@ -16,7 +16,7 @@ class Proxies:
 
     def __init__(self):
         self.__proxies: set[Proxy] = set()
-        self.__logger = logging.getLogger('account_generator_helper.proxies')
+        self.__logger = logging.getLogger('agh.proxies')
 
     def _proxy_list(self, _):
         urls = [

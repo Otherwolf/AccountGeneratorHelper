@@ -1,4 +1,4 @@
-from account_generator_helper import ReceiveSms, Counties
+from agh import ReceiveSms, Counties
 
 
 phone = ReceiveSms()
