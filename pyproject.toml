@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "accountgeneratorhelper"
+name = "AccountGeneratorHelper"
 version = "0.1.0"
-description = ""
+description = "Library helpful when creating accounts."
 authors = ["other_wolf <vpe304@gmail.com>"]
 readme = "README.md"
 
@@ -17,7 +17,8 @@ idna = "^3.7"
 charset-normalizer = "^3.3.2"
 certifi = "^2024.2.2"
 
+[tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
