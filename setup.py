@@ -4,7 +4,6 @@ from pathlib import Path
 this_directory = Path(__file__).parent
 
 long_description = (this_directory / 'README.md').read_text()
-required = (this_directory / 'requirements.txt').read_text().splitlines()
 
 setup(
     name='account_generator_helper',
@@ -43,5 +42,4 @@ setup(
     python_requires='>=3',
     keywords='python email captcha proxy pypi sms gmail temp-mail captcha-solving captcha-solver fake-data account-generator captcha-recognition '
              'fake-data-generator free-proxy recive-sms gmailnator gmailnator-api poxies',
-    install_requires=required
 )
