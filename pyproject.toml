@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "AccountGeneratorHelper"
+name = "account_generator_helper"
 version = "0.1.0"
 description = "Library helpful when creating accounts."
 authors = ["other_wolf <vpe304@gmail.com>"]
